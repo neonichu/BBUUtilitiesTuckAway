@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1EB39291912B2C600EF61DB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EB39281912B2C600EF61DB /* AppKit.framework */; };
+		A1EB392B1912B2C600EF61DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EB392A1912B2C600EF61DB /* Foundation.framework */; };
+		A1EB39311912B2C600EF61DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1EB392F1912B2C600EF61DB /* InfoPlist.strings */; };
+		A1EB39341912B2C600EF61DB /* BBUUtilitiesTuckAway.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB39331912B2C600EF61DB /* BBUUtilitiesTuckAway.m */; };
+		A1EB393D1912B2EE00EF61DB /* NSObject+YOLO.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB393C1912B2EE00EF61DB /* NSObject+YOLO.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1EB39251912B2C600EF61DB /* BBUUtilitiesTuckAway.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBUUtilitiesTuckAway.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EB39281912B2C600EF61DB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A1EB392A1912B2C600EF61DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1EB392E1912B2C600EF61DB /* BBUUtilitiesTuckAway-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBUUtilitiesTuckAway-Info.plist"; sourceTree = "<group>"; };
+		A1EB39301912B2C600EF61DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1EB39321912B2C600EF61DB /* BBUUtilitiesTuckAway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBUUtilitiesTuckAway.h; sourceTree = "<group>"; };
+		A1EB39331912B2C600EF61DB /* BBUUtilitiesTuckAway.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBUUtilitiesTuckAway.m; sourceTree = "<group>"; };
+		A1EB39351912B2C600EF61DB /* BBUUtilitiesTuckAway-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBUUtilitiesTuckAway-Prefix.pch"; sourceTree = "<group>"; };
+		A1EB393B1912B2EE00EF61DB /* NSObject+YOLO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+YOLO.h"; path = "contrib/NSObject+YOLO.h"; sourceTree = SOURCE_ROOT; };
+		A1EB393C1912B2EE00EF61DB /* NSObject+YOLO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YOLO.m"; path = "contrib/NSObject+YOLO.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1EB39221912B2C600EF61DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EB39291912B2C600EF61DB /* AppKit.framework in Frameworks */,
+				A1EB392B1912B2C600EF61DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1EB391C1912B2C600EF61DB = {
+			isa = PBXGroup;
+			children = (
+				A1EB392C1912B2C600EF61DB /* Code */,
+				A1EB39271912B2C600EF61DB /* Frameworks */,
+				A1EB39261912B2C600EF61DB /* Products */,
+				A1EB392D1912B2C600EF61DB /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A1EB39261912B2C600EF61DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1EB39251912B2C600EF61DB /* BBUUtilitiesTuckAway.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1EB39271912B2C600EF61DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1EB39281912B2C600EF61DB /* AppKit.framework */,
+				A1EB392A1912B2C600EF61DB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1EB392C1912B2C600EF61DB /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				A1EB39321912B2C600EF61DB /* BBUUtilitiesTuckAway.h */,
+				A1EB39331912B2C600EF61DB /* BBUUtilitiesTuckAway.m */,
+				A1EB393B1912B2EE00EF61DB /* NSObject+YOLO.h */,
+				A1EB393C1912B2EE00EF61DB /* NSObject+YOLO.m */,
+			);
+			name = Code;
+			path = BBUUtilitiesTuckAway;
+			sourceTree = "<group>";
+		};
+		A1EB392D1912B2C600EF61DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1EB392E1912B2C600EF61DB /* BBUUtilitiesTuckAway-Info.plist */,
+				A1EB39351912B2C600EF61DB /* BBUUtilitiesTuckAway-Prefix.pch */,
+				A1EB392F1912B2C600EF61DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			path = BBUUtilitiesTuckAway;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1EB39241912B2C600EF61DB /* BBUUtilitiesTuckAway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EB39381912B2C600EF61DB /* Build configuration list for PBXNativeTarget "BBUUtilitiesTuckAway" */;
+			buildPhases = (
+				A1EB39211912B2C600EF61DB /* Sources */,
+				A1EB39221912B2C600EF61DB /* Frameworks */,
+				A1EB39231912B2C600EF61DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBUUtilitiesTuckAway;
+			productName = BBUUtilitiesTuckAway;
+			productReference = A1EB39251912B2C600EF61DB /* BBUUtilitiesTuckAway.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1EB391D1912B2C600EF61DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Boris Bügling";
+			};
+			buildConfigurationList = A1EB39201912B2C600EF61DB /* Build configuration list for PBXProject "BBUUtilitiesTuckAway" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1EB391C1912B2C600EF61DB;
+			productRefGroup = A1EB39261912B2C600EF61DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1EB39241912B2C600EF61DB /* BBUUtilitiesTuckAway */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1EB39231912B2C600EF61DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EB39311912B2C600EF61DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1EB39211912B2C600EF61DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EB393D1912B2EE00EF61DB /* NSObject+YOLO.m in Sources */,
+				A1EB39341912B2C600EF61DB /* BBUUtilitiesTuckAway.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1EB392F1912B2C600EF61DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EB39301912B2C600EF61DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1EB39361912B2C600EF61DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A1EB39371912B2C600EF61DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A1EB39391912B2C600EF61DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBUUtilitiesTuckAway/BBUUtilitiesTuckAway-Prefix.pch";
+				INFOPLIST_FILE = "BBUUtilitiesTuckAway/BBUUtilitiesTuckAway-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		A1EB393A1912B2C600EF61DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBUUtilitiesTuckAway/BBUUtilitiesTuckAway-Prefix.pch";
+				INFOPLIST_FILE = "BBUUtilitiesTuckAway/BBUUtilitiesTuckAway-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1EB39201912B2C600EF61DB /* Build configuration list for PBXProject "BBUUtilitiesTuckAway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EB39361912B2C600EF61DB /* Debug */,
+				A1EB39371912B2C600EF61DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EB39381912B2C600EF61DB /* Build configuration list for PBXNativeTarget "BBUUtilitiesTuckAway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EB39391912B2C600EF61DB /* Debug */,
+				A1EB393A1912B2C600EF61DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1EB391D1912B2C600EF61DB /* Project object */;
+}
