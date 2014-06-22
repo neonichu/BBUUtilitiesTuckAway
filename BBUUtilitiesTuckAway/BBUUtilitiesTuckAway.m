@@ -8,8 +8,8 @@
 
 #import <objc/runtime.h>
 
+#import "Aspects.h"
 #import "BBUUtilitiesTuckAway.h"
-#import "NSObject+YOLO.h"
 
 static BBUUtilitiesTuckAway *sharedPlugin;
 
@@ -59,14 +59,9 @@ static BBUUtilitiesTuckAway *sharedPlugin;
 
 - (void)swizzleDidChangeTextInSourceTextView
 {
-    [[objc_getClass("DVTSourceTextView") new] yl_swizzleSelector:@selector(didChangeText)
-                                                       withBlock:^void(id sself) {
-                                                           [self toggleUtilitiesIfNeeded];
-                                                           
-                                                           [sself yl_performSelector:@selector(didChangeText)
-                                                                       returnAddress:NULL
-                                                                   argumentAddresses:NULL];
-                                                       }];
+    [objc_getClass("DVTSourceTextView") aspect_hookSelector:@selector(didChangeText) withOptions:AspectPositionBefore usingBlock:^(id<AspectInfo> info) {
+        [self toggleUtilitiesIfNeeded];
+    } error:nil];
 }
 
 - (void)toggleUtilitiesIfNeeded

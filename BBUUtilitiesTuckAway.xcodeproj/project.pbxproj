@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A11D858119570779000E7D76 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = A11D858019570779000E7D76 /* Aspects.m */; };
 		A1EB39291912B2C600EF61DB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EB39281912B2C600EF61DB /* AppKit.framework */; };
 		A1EB392B1912B2C600EF61DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EB392A1912B2C600EF61DB /* Foundation.framework */; };
 		A1EB39311912B2C600EF61DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1EB392F1912B2C600EF61DB /* InfoPlist.strings */; };
 		A1EB39341912B2C600EF61DB /* BBUUtilitiesTuckAway.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB39331912B2C600EF61DB /* BBUUtilitiesTuckAway.m */; };
-		A1EB393D1912B2EE00EF61DB /* NSObject+YOLO.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB393C1912B2EE00EF61DB /* NSObject+YOLO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A11D857F19570779000E7D76 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Aspects.h; path = contrib/Aspects.h; sourceTree = SOURCE_ROOT; };
+		A11D858019570779000E7D76 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Aspects.m; path = contrib/Aspects.m; sourceTree = SOURCE_ROOT; };
 		A1EB39251912B2C600EF61DB /* BBUUtilitiesTuckAway.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBUUtilitiesTuckAway.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EB39281912B2C600EF61DB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A1EB392A1912B2C600EF61DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -23,8 +25,6 @@
 		A1EB39321912B2C600EF61DB /* BBUUtilitiesTuckAway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBUUtilitiesTuckAway.h; sourceTree = "<group>"; };
 		A1EB39331912B2C600EF61DB /* BBUUtilitiesTuckAway.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBUUtilitiesTuckAway.m; sourceTree = "<group>"; };
 		A1EB39351912B2C600EF61DB /* BBUUtilitiesTuckAway-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBUUtilitiesTuckAway-Prefix.pch"; sourceTree = "<group>"; };
-		A1EB393B1912B2EE00EF61DB /* NSObject+YOLO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+YOLO.h"; path = "contrib/NSObject+YOLO.h"; sourceTree = SOURCE_ROOT; };
-		A1EB393C1912B2EE00EF61DB /* NSObject+YOLO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YOLO.m"; path = "contrib/NSObject+YOLO.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +70,10 @@
 		A1EB392C1912B2C600EF61DB /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				A11D857F19570779000E7D76 /* Aspects.h */,
+				A11D858019570779000E7D76 /* Aspects.m */,
 				A1EB39321912B2C600EF61DB /* BBUUtilitiesTuckAway.h */,
 				A1EB39331912B2C600EF61DB /* BBUUtilitiesTuckAway.m */,
-				A1EB393B1912B2EE00EF61DB /* NSObject+YOLO.h */,
-				A1EB393C1912B2EE00EF61DB /* NSObject+YOLO.m */,
 			);
 			name = Code;
 			path = BBUUtilitiesTuckAway;
@@ -152,8 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1EB393D1912B2EE00EF61DB /* NSObject+YOLO.m in Sources */,
 				A1EB39341912B2C600EF61DB /* BBUUtilitiesTuckAway.m in Sources */,
+				A11D858119570779000E7D76 /* Aspects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
